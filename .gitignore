@@ -1,4 +1,8 @@
-target/
+/.idea/
+/target/
+/resources/
+/src/main/resources/*.png
+
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
