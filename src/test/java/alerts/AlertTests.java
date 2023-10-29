@@ -29,7 +29,7 @@ public class AlertTests extends BaseTests {
         var alertsPage = homePage.clickJavaScriptAlerts();
         alertsPage.triggerPrompt();
 
-        String text = "TAU rocks!";
+        String text = "Mercury Insurance rocks!";
         alertsPage.alert_setInput(text);
         alertsPage.alert_clickToAccept();
         assertEquals(alertsPage.getResult(), "You entered: " + text, "Results text incorrect");
