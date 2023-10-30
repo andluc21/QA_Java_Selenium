@@ -55,11 +55,6 @@ public class HomePage {
         return new ForgotPasswordPage(driver);
     }
 
-    public HorizontalSliderPage clickHorizontalSlider() {
-        clickLink("Horizontal Slider");
-        return new HorizontalSliderPage(driver);
-    }
-
     public ContextMenuPage clickContextMenu() {
         clickLink("Context Menu");
         return new ContextMenuPage(driver);
