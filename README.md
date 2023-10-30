@@ -1,16 +1,21 @@
-## selenium-webdriver-java-framework
+# Selenium WebDriver Java Framework
 
-In this framework will be implemented:
-* Use WebDriver API to launch and interact with websites
-* Various techniques to find elements such as buttons, links, text, dropdowns, and more within a web application
-* WebDriver API calls to interact with those elements such as clicking, entering and reading text, selecting options, handling popups and alerts, uploading files, working with iframes, and more
-* Advanced interactions, such as hovering and sending alternative keys like tab, as well as symbols
-* Integrate the WebDriver API with a test assertion library - TestNG
-* Organize test code using the Page Object Model  
-* Various wait strategies to control the timing of scripts and avoid flaky tests
-* Take screenshots during test executions
-* Test code listen for specific WebDriver events and perform additional actions, like logging test activity
-* Customize the browser used in test execution
-* Run headless tests
-* Navigating multiple open tabs within a browser, as well as cookie management
-* Custom actions using JavaScript
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/ivodimitrov/selenium-webdriver-java-framework/blob/master/LICENSE)
+
+Welcome to the Selenium WebDriver Java Framework repository! This framework is designed to facilitate web testing using Selenium WebDriver and Java. It provides a structure and utilities to simplify test automation and make your testing process efficient.
+
+## Features
+
+- **Page Object Model (POM):** The framework follows the Page Object Model design pattern, enhancing maintainability by separating page-specific elements and actions.
+- **Reusable Components:** Commonly used functions and utilities are encapsulated for easy reusability across your tests.
+- **Configuration Management:** Easily manage configuration properties, such as browser type and test environment, through configuration files.
+- **TestNG Integration:** Integration with TestNG for test execution and reporting.
+
+## Getting Started
+
+Follow these steps to set up the project locally and start using the framework:
+
+1. **Clone the Repository:**
+   ```shell
+   git clone https://github.com/ivodimitrov/selenium-webdriver-java-framework.git
+   cd selenium-webdriver-java-framework
